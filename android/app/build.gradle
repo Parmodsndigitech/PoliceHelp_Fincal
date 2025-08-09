@@ -1,19 +1,23 @@
+
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
 react {
 }
+
 def enableProguardInReleaseBuilds = false
 def jscFlavor = 'org.webkit:android-jsc:+'
 android {
     ndkVersion rootProject.ext.ndkVersion
+
     compileSdkVersion rootProject.ext.compileSdkVersion
+
     namespace "com.policeHelp"
     defaultConfig {
         applicationId "com.policeHelp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 5
-        versionName "5.0"
+        versionCode 9
+        versionName "9.0"
     }
     signingConfigs {
         debug {

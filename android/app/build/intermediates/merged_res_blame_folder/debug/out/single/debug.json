@@ -1,90 +1,246 @@
 [
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_tick.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_tick.png"
     },
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/drawable_rn_edit_text_material.xml.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/drawable/rn_edit_text_material.xml"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/drawable_rn_edit_text_material.xml.flat",
-        "source": "com.policeHelp.app-main-35:/drawable/rn_edit_text_material.xml"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_loading.gif.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_loading.gif"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.policeHelp.app-main-35:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_thank.gif.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_thank.gif"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.policeHelp.app-main-35:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_star.gif.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_star.gif"
     },
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_rightarrow.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_rightarrow.png"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.policeHelp.app-main-35:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_phone.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_phone.png"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.policeHelp.app-main-35:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowup.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowup.png"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.policeHelp.app-main-35:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_successcheck.gif.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_successcheck.gif"
     },
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.policeHelp.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.policeHelp.app-main-35:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_location.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_location.png"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.policeHelp.app-main-35:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_poweroff.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_poweroff.png"
     },
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.policeHelp.app-main-35:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-35:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_policelogo.gif.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_policelogo.gif"
     },
     {
-        "merged": "com.policeHelp.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.policeHelp.app-main-35:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_close.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_close.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_intro3.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_intro3.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_nodata.gif.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_nodata.gif"
+    },
+    {
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_close4.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_close4.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowdown.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowdown.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_continue.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_continue.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_tick.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_tick.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_submit.gif.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_submit.gif"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_account.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_account.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-xhdpi_node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-xhdpi/node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png"
+    },
+    {
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/drawable_rn_edit_text_material.xml.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_more.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_more.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_userimg.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_userimg.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_close.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_close.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-xxhdpi_node_modules_reactnativecheckbox_img_ic_check_box.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-xxhdpi/node_modules_reactnativecheckbox_img_ic_check_box.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_call.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_call.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_intro2.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_intro2.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_feedback2.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_feedback2.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-xxhdpi_node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-xxhdpi/node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_back.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_back.png"
+    },
+    {
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowup.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowup.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativecheckbox_img_ic_indeterminate_check_box.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativecheckbox_img_ic_indeterminate_check_box.png"
+    },
+    {
+        "merged": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/sndigitechpvtltd/.gradle/daemon/8.0.1/com.policeHelp.app-main-42:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_haretosave.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_haretosave.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_close.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_close.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativecheckbox_img_ic_check_box.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativecheckbox_img_ic_check_box.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_src_images_intro1.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/src_images_intro1.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowdown.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowdown.png"
+    },
+    {
+        "merged": "com.policeHelp.app-merged_res-40:/drawable-xhdpi_node_modules_reactnativecheckbox_img_ic_check_box.png.flat",
+        "source": "com.policeHelp.app-main-42:/drawable-xhdpi/node_modules_reactnativecheckbox_img_ic_check_box.png"
     }
 ]

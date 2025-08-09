@@ -15,8 +15,7 @@ import DocumentPicker from 'react-native-document-picker';
 import {connect} from 'react-redux';
 import {userActions} from '../../_actions';
 import Colors from '../../_constants/Colors';
-import {wp} from '../../constantComponent/Responsive';
-import {alert} from '../../_reducers/alert.reducer';
+import {hp, wp} from '../../constantComponent/Responsive';
 
 const {height} = Dimensions.get('window');
 const Profile = props => {
@@ -39,6 +38,7 @@ const Profile = props => {
     // console.log('pamodd.........Profile', registerData);
     setName(registerData && registerData.name ? registerData.name : '-');
     setemail(registerData && registerData.email ? registerData.email : '-');
+    setimage(registerData && registerData?.avatar?registerData?.avatar:'-')
   }, []);
   const handleRegistration = () => {
     setPasswordError('');
@@ -97,6 +97,9 @@ const Profile = props => {
       else console.log(err);
     }
   };
+
+
+   
   return (
     <View style={{flex: 1, backgroundColor: '#FFF'}}>
       <ScrollView>
@@ -120,8 +123,10 @@ const Profile = props => {
         </View>
 
         <View style={{flex: 1, marginHorizontal: 20}}>
+        
           {image && image[0].uri ? (
             <TouchableOpacity onPress={() => UplaordDocument()}>
+                            <Text style={{color:'#000266',alignSelf:'center',alignItems:'center',justifyContent:'center',position:'absolute',top:hp(13),fontSize:hp(1.7),fontWeight:'600'}}>No Photo</Text>
               <Image
                 style={{
                   alignSelf: 'center',
@@ -129,12 +134,15 @@ const Profile = props => {
                   width: 100,
                   marginTop: 50,
                   borderRadius: 50,
+                  borderWidth:wp(.5),
+                  borderColor:'#000266'
                 }}
                 source={{uri: image && image[0].uri}}
               />
             </TouchableOpacity>
           ) : (
             <TouchableOpacity onPress={() => UplaordDocument()}>
+                            <Text style={{color:'#000266',alignSelf:'center',alignItems:'center',justifyContent:'center',position:'absolute',top:hp(13),fontSize:hp(1.7),fontWeight:'600'}}>No Photo</Text>
               <Image
                 style={{
                   alignSelf: 'center',
@@ -143,8 +151,12 @@ const Profile = props => {
                   marginTop: 50,
                   borderRadius: 50,
                   resizeMode: 'contain',
+                  borderWidth:wp(.5),
+                  borderColor:'#000266'
                 }}
-                source={require('../../Images/userImg.png')}
+                // source={require('../../Images/userImg.png')}
+                //  source={image?{uri: image}:require('../../Images/userImg.png')}
+                  source={image ? { uri: image } : require('../../Images/userImg.png')}
               />
             </TouchableOpacity>
           )}

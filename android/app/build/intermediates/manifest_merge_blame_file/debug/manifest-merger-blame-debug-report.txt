@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.policeHelp"
-4    android:versionCode="5"
-5    android:versionName="5.0" >
+4    android:versionCode="9"
+5    android:versionName="9.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -23,150 +23,279 @@
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 15-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:6:5-79
 15-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:6:22-76
-16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Advertising ID permission (Android 13+ के लिए जरूरी) -->
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 16-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:7:5-81
 16-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:7:22-78
-17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-17-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:10:5-79
-17-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:10:22-76
-18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
-18-->[com.facebook.flipper:flipper:0.182.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
-18-->[com.facebook.flipper:flipper:0.182.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
-19    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
-19-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-73
-19-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-70
-20    <!--
-21         Required to keep CPU alive while downloading files
-22        (NOT to keep screen awake)
-23    -->
-24    <uses-permission android:name="android.permission.WAKE_LOCK" />
-24-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-68
-24-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:22-65
-25    <!--
-26         Required to poll the state of the network connection
-27        and respond to changes
-28    -->
-29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-29-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:5-79
-29-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:22-76
-30
-31    <application
-31-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:15:5-40:19
-32        android:name="com.policeHelp.MainApplication"
-32-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:16:9-40
-33        android:allowBackup="false"
-33-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:20:9-36
-34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-34-->[androidx.core:core:1.7.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/75e4635b66fa4e4e84e71b52579837ce/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
-35        android:debuggable="true"
-36        android:exported="true"
-36-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:21:9-32
-37        android:icon="@mipmap/ic_launcher"
-37-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:18:9-43
-38        android:label="@string/app_name"
-38-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:17:9-41
-39        android:roundIcon="@mipmap/ic_launcher_round"
-39-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:19:9-54
-40        android:theme="@style/AppTheme"
-40-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:23:9-40
-41        android:usesCleartextTraffic="true" >
-41-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:22:9-44
-42        <activity
-42-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/debug/AndroidManifest.xml:15:9-111
-43            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-43-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/debug/AndroidManifest.xml:15:19-83
-44            android:exported="false" />
-44-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/debug/AndroidManifest.xml:15:84-108
-45        <activity
-45-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:25:9-38:20
-46            android:name="com.policeHelp.MainActivity"
-46-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:26:13-41
-47            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-47-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:28:13-122
-48            android:exported="true"
-48-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:32:13-36
-49            android:label="@string/app_name"
-49-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:27:13-45
-50            android:launchMode="singleTask"
-50-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:29:13-44
-51            android:screenOrientation="portrait"
-51-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:31:13-49
-52            android:windowSoftInputMode="adjustResize" >
-52-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:30:13-55
-53            <intent-filter>
-53-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:34:13-37:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:35:17-69
-54-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:35:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:36:17-77
-56-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:36:27-74
-57            </intent-filter>
-58        </activity>
-59
-60        <provider
-60-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-40:20
-61            android:name="com.RNFetchBlob.Utils.FileProvider"
-61-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-62
-62            android:authorities="com.policeHelp.provider"
-62-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-60
-63            android:exported="false"
-63-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-37
-64            android:grantUriPermissions="true" >
-64-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-47
-65            <meta-data
-65-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-39:58
-66                android:name="android.support.FILE_PROVIDER_PATHS"
-66-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-67
-67                android:resource="@xml/provider_paths" />
-67-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-55
-68        </provider>
-69
-70        <meta-data
-70-->[com.facebook.soloader:soloader:0.10.5] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
-71            android:name="com.facebook.soloader.enabled"
-71-->[com.facebook.soloader:soloader:0.10.5] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
-72            android:value="false" />
-72-->[com.facebook.soloader:soloader:0.10.5] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
-73
-74        <activity
-74-->[com.google.android.gms:play-services-base:18.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/7bc2107a0f24dde54b783ba4b64ec0fd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
-75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-75-->[com.google.android.gms:play-services-base:18.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/7bc2107a0f24dde54b783ba4b64ec0fd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
-76            android:exported="false"
-76-->[com.google.android.gms:play-services-base:18.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/7bc2107a0f24dde54b783ba4b64ec0fd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
-77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-77-->[com.google.android.gms:play-services-base:18.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/7bc2107a0f24dde54b783ba4b64ec0fd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
-78
-79        <meta-data
-79-->[com.google.android.gms:play-services-basement:18.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/bf9b6fb405d2f7fd8250171739588e78/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-80            android:name="com.google.android.gms.version"
-80-->[com.google.android.gms:play-services-basement:18.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/bf9b6fb405d2f7fd8250171739588e78/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-81            android:value="@integer/google_play_services_version" />
-81-->[com.google.android.gms:play-services-basement:18.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/bf9b6fb405d2f7fd8250171739588e78/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-82
-83        <provider
-83-->[androidx.emoji2:emoji2:1.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-84            android:name="androidx.startup.InitializationProvider"
-84-->[androidx.emoji2:emoji2:1.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-85            android:authorities="com.policeHelp.androidx-startup"
-85-->[androidx.emoji2:emoji2:1.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-86            android:exported="false" >
-86-->[androidx.emoji2:emoji2:1.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-87            <meta-data
-87-->[androidx.emoji2:emoji2:1.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-88-->[androidx.emoji2:emoji2:1.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-89                android:value="androidx.startup" />
-89-->[androidx.emoji2:emoji2:1.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-90            <meta-data
-90-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-91-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-92                android:value="androidx.startup" />
-92-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-93        </provider>
-94    </application>
-95
-96</manifest>
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+17-->[com.facebook.flipper:flipper:0.182.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.182.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+18-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-73
+18-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-70
+19    <!--
+20         Required to keep CPU alive while downloading files
+21        (NOT to keep screen awake)
+22    -->
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-68
+23-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:22-65
+24    <!--
+25         Required to poll the state of the network connection
+26        and respond to changes
+27    -->
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:5-79
+28-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:22-76
+29
+30    <queries>
+30-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:10:5-39:15
+31        <intent>
+31-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:11:9-17:18
+32            <action android:name="android.intent.action.VIEW" />
+32-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:12:13-65
+32-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:12:21-62
+33
+34            <data
+34-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:14:13-16:38
+35                android:mimeType="*/*"
+35-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:15:17-39
+36                android:scheme="*" />
+36-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:16:17-35
+37        </intent>
+38        <intent>
+38-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:18:9-27:18
+39            <action android:name="android.intent.action.VIEW" />
+39-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:12:13-65
+39-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:12:21-62
+40
+41            <category android:name="android.intent.category.BROWSABLE" />
+41-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:21:13-74
+41-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:21:23-71
+42
+43            <data
+43-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:14:13-16:38
+44                android:host="pay"
+45                android:mimeType="*/*"
+45-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:15:17-39
+46                android:scheme="upi" />
+46-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:16:17-35
+47        </intent>
+48        <intent>
+48-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:28:9-30:18
+49            <action android:name="android.intent.action.MAIN" />
+49-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:35:17-69
+49-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:35:25-66
+50        </intent>
+51        <intent>
+51-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:31:9-35:18
+52            <action android:name="android.intent.action.SEND" />
+52-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:32:13-65
+52-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:32:21-62
+53
+54            <data android:mimeType="*/*" />
+54-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:14:13-16:38
+54-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:15:17-39
+55        </intent>
+56        <intent>
+56-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:36:9-38:18
+57            <action android:name="rzp.device_token.share" />
+57-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:37:13-61
+57-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:37:21-58
+58        </intent>
+59    </queries>
+60
+61    <uses-feature
+61-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+62        android:glEsVersion="0x00020000"
+62-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+63        android:required="true" />
+63-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+64
+65    <application
+65-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:15:5-40:19
+66        android:name="com.policeHelp.MainApplication"
+66-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:16:9-40
+67        android:allowBackup="false"
+67-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:20:9-36
+68        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+68-->[androidx.core:core:1.8.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/9623e378e4dfc57c47793d0ffd25ee05/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+69        android:debuggable="true"
+70        android:exported="true"
+70-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:21:9-32
+71        android:icon="@mipmap/ic_launcher"
+71-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:18:9-43
+72        android:label="@string/app_name"
+72-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:17:9-41
+73        android:roundIcon="@mipmap/ic_launcher_round"
+73-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:19:9-54
+74        android:theme="@style/AppTheme"
+74-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:23:9-40
+75        android:usesCleartextTraffic="true" >
+75-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:22:9-44
+76        <activity
+76-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/debug/AndroidManifest.xml:15:9-111
+77            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+77-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/debug/AndroidManifest.xml:15:19-83
+78            android:exported="false" />
+78-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/debug/AndroidManifest.xml:15:84-108
+79        <activity
+79-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:25:9-38:20
+80            android:name="com.policeHelp.MainActivity"
+80-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:26:13-41
+81            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+81-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:28:13-122
+82            android:exported="true"
+82-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:32:13-36
+83            android:label="@string/app_name"
+83-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:27:13-45
+84            android:launchMode="singleTask"
+84-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:29:13-44
+85            android:screenOrientation="portrait"
+85-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:31:13-49
+86            android:windowSoftInputMode="adjustResize" >
+86-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:30:13-55
+87            <intent-filter>
+87-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:34:13-37:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:35:17-69
+88-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:35:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:36:17-77
+90-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:36:27-74
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->[:react-native-razorpay] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:86
+94            android:name="com.razorpay.CheckoutActivity"
+94-->[:react-native-razorpay] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-57
+95            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+95-->[:react-native-razorpay] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-83
+96            android:exported="false"
+96-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:45:13-37
+97            android:theme="@style/CheckoutTheme" >
+97-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:46:13-49
+98            <intent-filter>
+98-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:47:13-49:29
+99                <action android:name="android.intent.action.MAIN" />
+99-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:35:17-69
+99-->/Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/android/app/src/main/AndroidManifest.xml:35:25-66
+100            </intent-filter>
+101        </activity>
+102
+103        <provider
+103-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-40:20
+104            android:name="com.RNFetchBlob.Utils.FileProvider"
+104-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-62
+105            android:authorities="com.policeHelp.provider"
+105-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-60
+106            android:exported="false"
+106-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-37
+107            android:grantUriPermissions="true" >
+107-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-47
+108            <meta-data
+108-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-39:58
+109                android:name="android.support.FILE_PROVIDER_PATHS"
+109-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-67
+110                android:resource="@xml/provider_paths" />
+110-->[:rn-fetch-blob] /Users/sndigitechpvtltd/Downloads/Parmod/PoliceHelp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-55
+111        </provider>
+112        <provider
+112-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:52:9-60:20
+113            android:name="androidx.startup.InitializationProvider"
+113-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:53:13-67
+114            android:authorities="com.policeHelp.androidx-startup"
+114-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:54:13-68
+115            android:exported="false" >
+115-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:55:13-37
+116            <meta-data
+116-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:57:13-59:52
+117                android:name="com.razorpay.RazorpayInitializer"
+117-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:58:17-64
+118                android:value="androidx.startup" />
+118-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:59:17-49
+119            <meta-data
+119-->[androidx.emoji2:emoji2:1.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+120                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+120-->[androidx.emoji2:emoji2:1.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+121                android:value="androidx.startup" />
+121-->[androidx.emoji2:emoji2:1.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+122            <meta-data
+122-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+123                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+123-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+124                android:value="androidx.startup" />
+124-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+125        </provider>
+126
+127        <activity
+127-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:62:9-65:75
+128            android:name="com.razorpay.MagicXActivity"
+128-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:63:13-55
+129            android:exported="false"
+129-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:64:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:65:13-72
+131
+132        <meta-data
+132-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:67:9-69:58
+133            android:name="com.razorpay.plugin.googlepay_all"
+133-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:68:13-61
+134            android:value="com.razorpay.RzpGpayMerged" />
+134-->[com.razorpay:standard-core:1.6.53] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/d486cfc29db09947fe67f8ce57f55807/transformed/jetified-standard-core-1.6.53/AndroidManifest.xml:69:13-55
+135
+136        <activity
+136-->[com.google.android.gms:play-services-auth:21.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/83b9bc07ed4f39f269b5723692e7e14b/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:23:9-27:75
+137            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+137-->[com.google.android.gms:play-services-auth:21.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/83b9bc07ed4f39f269b5723692e7e14b/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:24:13-93
+138            android:excludeFromRecents="true"
+138-->[com.google.android.gms:play-services-auth:21.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/83b9bc07ed4f39f269b5723692e7e14b/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:25:13-46
+139            android:exported="false"
+139-->[com.google.android.gms:play-services-auth:21.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/83b9bc07ed4f39f269b5723692e7e14b/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:26:13-37
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+140-->[com.google.android.gms:play-services-auth:21.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/83b9bc07ed4f39f269b5723692e7e14b/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:27:13-72
+141        <!--
+142            Service handling Google Sign-In user revocation. For apps that do not integrate with
+143            Google Sign-In, this service will never be started.
+144        -->
+145        <service
+145-->[com.google.android.gms:play-services-auth:21.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/83b9bc07ed4f39f269b5723692e7e14b/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:33:9-37:51
+146            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+146-->[com.google.android.gms:play-services-auth:21.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/83b9bc07ed4f39f269b5723692e7e14b/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:34:13-89
+147            android:exported="true"
+147-->[com.google.android.gms:play-services-auth:21.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/83b9bc07ed4f39f269b5723692e7e14b/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:35:13-36
+148            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+148-->[com.google.android.gms:play-services-auth:21.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/83b9bc07ed4f39f269b5723692e7e14b/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:36:13-107
+149            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+149-->[com.google.android.gms:play-services-auth:21.1.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/83b9bc07ed4f39f269b5723692e7e14b/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:37:13-48
+150        <uses-library
+150-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+151            android:name="org.apache.http.legacy"
+151-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+152            android:required="false" />
+152-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/aae6d9c78e52b85d3e06f789b9ef2670/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+153
+154        <activity
+154-->[com.google.android.gms:play-services-base:18.3.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/2d2334db7d8b807750d723cd2626e1ea/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:18.3.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/2d2334db7d8b807750d723cd2626e1ea/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:18.3.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/2d2334db7d8b807750d723cd2626e1ea/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:18.3.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/2d2334db7d8b807750d723cd2626e1ea/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+158
+159        <meta-data
+159-->[com.google.android.gms:play-services-basement:18.3.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/f5bb51cf4363aa88665035cc1a2c5327/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+160            android:name="com.google.android.gms.version"
+160-->[com.google.android.gms:play-services-basement:18.3.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/f5bb51cf4363aa88665035cc1a2c5327/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+161            android:value="@integer/google_play_services_version" />
+161-->[com.google.android.gms:play-services-basement:18.3.0] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/f5bb51cf4363aa88665035cc1a2c5327/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+162        <meta-data
+162-->[com.facebook.soloader:soloader:0.10.5] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+163            android:name="com.facebook.soloader.enabled"
+163-->[com.facebook.soloader:soloader:0.10.5] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+164            android:value="false" />
+164-->[com.facebook.soloader:soloader:0.10.5] /Users/sndigitechpvtltd/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+165    </application>
+166
+167</manifest>

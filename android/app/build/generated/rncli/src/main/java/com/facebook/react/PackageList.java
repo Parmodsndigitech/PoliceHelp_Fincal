@@ -21,6 +21,8 @@ import org.reactnative.maskedview.RNCMaskedViewPackage;
 import com.reactnativedocumentpicker.RNDocumentPickerPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
+// react-native-razorpay
+import com.razorpay.rn.RazorpayPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
@@ -81,6 +83,7 @@ public class PackageList {
       new RNCMaskedViewPackage(),
       new RNDocumentPickerPackage(),
       new RNGestureHandlerPackage(),
+      new RazorpayPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),

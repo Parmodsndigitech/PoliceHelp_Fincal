@@ -11,6 +11,7 @@ import {hp, wp} from './Responsive';
 import Colors from '../_constants/Colors';
 const {height, width} = Dimensions.get('window');
 const StationResult = ({addmodel, closeModel, props, stationRes}) => {
+
   return (
     <Modal animationType="fade" transparent={true} visible={addmodel}>
       <TouchableOpacity
@@ -20,6 +21,7 @@ const StationResult = ({addmodel, closeModel, props, stationRes}) => {
         }}
         onPress={() => closeModel()}
         activeOpacity={1}>
+           {stationRes?.length > 0 &&
         <View
           style={{
             marginTop: height / 2.49,
@@ -33,7 +35,7 @@ const StationResult = ({addmodel, closeModel, props, stationRes}) => {
             backgroundColor: '#FFF',
             backfaceVisibility: 'visible',
           }}>
-          {stationRes?.length > 0 ? (
+          {/* {stationRes?.length > 0 ? (
             <View
               style={{
                 marginHorizontal: 5,
@@ -103,7 +105,7 @@ const StationResult = ({addmodel, closeModel, props, stationRes}) => {
                 </Text>
               </TouchableOpacity>
             </View>
-          )}
+          )} */}
           <ScrollView style={{maxHeight: 150}}>
             {stationRes?.length > 0
               ? stationRes.map((ele, index) => (
@@ -146,7 +148,7 @@ const StationResult = ({addmodel, closeModel, props, stationRes}) => {
                 ))
               : null}
           </ScrollView>
-        </View>
+        </View>}
       </TouchableOpacity>
     </Modal>
   );

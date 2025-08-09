@@ -3,7 +3,7 @@ import {View, Text, TouchableOpacity, Image, Alert} from 'react-native';
 import {connect} from 'react-redux';
 import {userActions} from '../_actions';
 import { useNavigation } from '@react-navigation/native';
-import { wp } from '../constantComponent/Responsive';
+import { hp, wp } from '../constantComponent/Responsive';
 
 const MyDrawer = props => {
   const navigation=useNavigation()
@@ -36,11 +36,36 @@ const MyDrawer = props => {
             <TouchableOpacity 
             onPress={()=>navigation.navigate('Profile')}
               activeOpacity={.8}
+              style={{
+                borderWidth:wp(.4),
+                                  borderColor:'#000266',
+                                  borderRadius:wp(50)
+              }}
             >
-            <Image
+
+{registerData?.avatar?
+<View>
+                            <Text style={{color:'#000266',alignSelf:'center',alignItems:'center',justifyContent:'center',position:'absolute',top:hp(3.5),fontSize:hp(1.5),fontWeight:'600'}}>No Photo</Text>
+             <Image
+  style={{height: 60, width: 60,borderRadius:wp(60)}}
+  resizeMode="cover"
+  source={{uri: registerData?.avatar}} />
+</View>
+
+:
+<View>
+                            <Text style={{color:'#000266',alignSelf:'center',alignItems:'center',justifyContent:'center',position:'absolute',top:hp(3.5),fontSize:hp(1.5),fontWeight:'600'}}>No Photo</Text>
+
+ <Image
               style={{resizeMode: 'cover', height: 60, width: 60}}
               source={require('../Images/userImg.png')}
-            />
+            /> 
+</View>
+  
+}
+
+          
+          
             </TouchableOpacity>
             <View style={{marginLeft: 5, width: '70%', alignSelf: 'center'}}>
               <Text style={{fontSize: 14, fontWeight: '500', color: '#000266'}}>
